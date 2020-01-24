@@ -1,0 +1,23 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-oct-2019, 12:24:43
+    Author     : maak
+*/
+
+.root{
+    -fx-background-color: rgb(208,254,171);
+}
+
+#grid >.button{
+        -fx-background-color: rgb(204,203,20);
+        -fx-background-radius: 10;
+}
+
+#hbox > .button{
+        -fx-background-color: rgb(150,150,80);
+}
+

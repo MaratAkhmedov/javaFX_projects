@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AnyadirPersonasCompleto.jnlp">
+  <information>
+    <title>AnyadirPersonasCompleto</title>
+    <vendor>jsoler</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AnyadirPersonasCompleto.jar" size="7984" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="AnyadirPersonasCompleto" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="ejemplotableview.EjemploTableView"  name="AnyadirPersonasCompleto" />
+  <update check="always"/>
+</jnlp>

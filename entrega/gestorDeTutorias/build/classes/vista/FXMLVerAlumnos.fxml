@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="405.0" prefWidth="513.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.FXMLVerAlumnosController">
+   <children>
+      <VBox prefHeight="408.0" prefWidth="510.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="28.0" prefWidth="518.0" text="Lista Alumnos" VBox.vgrow="ALWAYS">
+               <font>
+                  <Font name="System Bold" size="19.0" />
+               </font>
+            </Label>
+            <TableView fx:id="alumnTable" prefHeight="428.0" prefWidth="513.0" VBox.vgrow="ALWAYS">
+              <columns>
+                <TableColumn fx:id="alumnName" maxWidth="100.0" prefWidth="100.0" text="Nombre" />
+                <TableColumn fx:id="alumnSurname" maxWidth="210.0" prefWidth="210.0" text="Apellidos" />
+                  <TableColumn fx:id="alumnEmail" maxWidth="210.0" prefWidth="210.0" text="Email" />
+              </columns>
+            </TableView>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

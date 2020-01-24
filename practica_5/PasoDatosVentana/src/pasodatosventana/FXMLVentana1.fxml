@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="328.0" prefWidth="432.0" spacing="20.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pasodatosventana.FXMLVentana1Controller">
+   <children>
+      <Button fx:id="button" onAction="#mostrarVentana" text="CREAR VENTANA" VBox.vgrow="ALWAYS" />
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+         <children>
+            <Label text="Texto para ventana 2:" />
+            <TextField fx:id="text2ventana2" />
+         </children>
+      </HBox>
+      <Label fx:id="label" minHeight="16" minWidth="69" text="Ventana principal" VBox.vgrow="ALWAYS">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+   <opaqueInsets>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </opaqueInsets>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>

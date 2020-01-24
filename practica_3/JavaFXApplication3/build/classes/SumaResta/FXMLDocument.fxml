@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="364.0" prefWidth="381.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SumaResta.FXMLDocumentController">
+   <children>
+      <Text fx:id="resultado" layoutX="33.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="313.00000028312206" AnchorPane.leftAnchor="33.0" AnchorPane.rightAnchor="34.99999971687794">
+         <font>
+            <Font size="57.0" />
+         </font>
+      </Text>
+      <HBox alignment="CENTER" layoutX="142.0" layoutY="76.0" prefHeight="27.0" prefWidth="97.0" spacing="10.0" AnchorPane.topAnchor="76.0">
+         <children>
+            <Button fx:id="button1" mnemonicParsing="false" text="1" />
+            <Button fx:id="button5" mnemonicParsing="false" text="5" />
+            <Button fx:id="button10" mnemonicParsing="false" text="10" />
+         </children>
+      </HBox>
+      <CheckBox fx:id="restar" alignment="CENTER" contentDisplay="CENTER" layoutX="160.0" layoutY="118.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="61.0" text="Restar" />
+      <Text fx:id="avisoRestando" layoutX="117.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="200.0" AnchorPane.topAnchor="316.05078125" />
+      <HBox layoutX="63.0" layoutY="202.0" prefHeight="25.0" prefWidth="254.0" spacing="10.0">
+         <children>
+            <Label text="Valor:" />
+            <TextField />
+            <Button fx:id="buttonSuma" mnemonicParsing="false" text="Suma" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

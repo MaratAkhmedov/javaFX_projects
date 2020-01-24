@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="565.0" prefWidth="542.0" spacing="48.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="temporizadorintervalos.FXMLTemporizadorController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Circuitos 2 (descanso 5&quot;)/Ejercicio 3 (descando 10&quot;, trabajo7&quot;)" />
+      <StackPane VBox.vgrow="ALWAYS">
+         <children>
+            <Text fx:id="textoTiempo" fill="#3a0dee" strokeType="OUTSIDE" strokeWidth="0.0" text="00:00:00">
+               <font>
+                  <Font name="Arial Black" size="67.0" />
+               </font>
+            </Text>
+         </children>
+      </StackPane>
+      <HBox alignment="CENTER" spacing="12.0" VBox.vgrow="NEVER">
+         <children>
+            <Button fx:id="iniBut" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#iniciar" text="Iniciar">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="reaBut" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#reanudar" text="Reanudar">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="parBut" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#parar" text="Parar">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="sigBut" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#siguiente" text="Siguiente">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="24.0" left="24.0" right="24.0" top="24.0" />
+   </padding>
+</VBox>
